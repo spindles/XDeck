@@ -1,0 +1,5 @@
+Configwizard
+
+Save software stats to DB
+Add exceptions & debugging
+Documentation

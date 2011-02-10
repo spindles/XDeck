@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DarcKnight</class>
+ <widget class="QDialog" name="DarcKnight">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>524</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>D'Arc Knight</string>
+  </property>
+  <widget class="QPushButton" name="pushButtonLaunch">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>490</y>
+     <width>321</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Activate!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelTitle">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>201</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>D'Arc Knight Anti Program Utility</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSubTitle">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>30</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(c) 2050 FSDF</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEditOutput">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>281</width>
+     <height>431</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

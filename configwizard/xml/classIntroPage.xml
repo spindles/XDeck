@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="classIntroPage" kind="class" prot="public">
+    <compoundname>IntroPage</compoundname>
+    <includes refid="configwizard_8h" local="no">configwizard.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classIntroPage_15ac8b336d2b70f9b418fd6196685398f" prot="private" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* IntroPage::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="71" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classIntroPage_11542ddeba40ea1e6d5f968829876c95d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>IntroPage::IntroPage</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>IntroPage</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="68" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.cpp" bodystart="49" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classIntroPage" kindref="compound">IntroPage</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>Introduction QWizardPage. </para>    </detaileddescription>
+    <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="64" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="63" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classIntroPage_11542ddeba40ea1e6d5f968829876c95d" prot="public" virt="non-virtual"><scope>IntroPage</scope><name>IntroPage</name></member>
+      <member refid="classIntroPage_15ac8b336d2b70f9b418fd6196685398f" prot="private" virt="non-virtual"><scope>IntroPage</scope><name>label</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

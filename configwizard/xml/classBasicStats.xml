@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="classBasicStats" kind="class" prot="public">
+    <compoundname>BasicStats</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classBasicStats_1ad15da83355658d6c368ab11f628b6a1" prot="private" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* BasicStats::nameLabel</definition>
+        <argsstring></argsstring>
+        <name>nameLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="125" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBasicStats_15fbdab36ec1028203cc6e16c9e3b2169" prot="private" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* BasicStats::emailLabel</definition>
+        <argsstring></argsstring>
+        <name>emailLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="126" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBasicStats_14d325961177d82cee82e5c05d1fa6b9b" prot="private" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* BasicStats::nameLineEdit</definition>
+        <argsstring></argsstring>
+        <name>nameLineEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="127" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBasicStats_13859532b798a00abf67f1fae16760567" prot="private" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* BasicStats::emailLineEdit</definition>
+        <argsstring></argsstring>
+        <name>emailLineEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="128" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBasicStats_1bb69ed0a9b0fa91f66f220c4390c926a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BasicStats::BasicStats</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>BasicStats</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="122" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.cpp" bodystart="162" bodyend="165"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="118" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="117" bodyend="129"/>
+    <listofallmembers>
+      <member refid="classBasicStats_1bb69ed0a9b0fa91f66f220c4390c926a" prot="public" virt="non-virtual"><scope>BasicStats</scope><name>BasicStats</name></member>
+      <member refid="classBasicStats_15fbdab36ec1028203cc6e16c9e3b2169" prot="private" virt="non-virtual"><scope>BasicStats</scope><name>emailLabel</name></member>
+      <member refid="classBasicStats_13859532b798a00abf67f1fae16760567" prot="private" virt="non-virtual"><scope>BasicStats</scope><name>emailLineEdit</name></member>
+      <member refid="classBasicStats_1ad15da83355658d6c368ab11f628b6a1" prot="private" virt="non-virtual"><scope>BasicStats</scope><name>nameLabel</name></member>
+      <member refid="classBasicStats_14d325961177d82cee82e5c05d1fa6b9b" prot="private" virt="non-virtual"><scope>BasicStats</scope><name>nameLineEdit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

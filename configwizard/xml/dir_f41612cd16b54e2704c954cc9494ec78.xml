@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="dir_f41612cd16b54e2704c954cc9494ec78" kind="dir">
+    <compoundname>/home/magentarain/cpp/configwizard/src/</compoundname>
+    <innerfile refid="configwizard_8cpp">configwizard.cpp</innerfile>
+    <innerfile refid="configwizard_8h">configwizard.h</innerfile>
+    <innerfile refid="editcopy_8xpm">editcopy.xpm</innerfile>
+    <innerfile refid="editcut_8xpm">editcut.xpm</innerfile>
+    <innerfile refid="editpaste_8xpm">editpaste.xpm</innerfile>
+    <innerfile refid="filenew_8xpm">filenew.xpm</innerfile>
+    <innerfile refid="fileopen_8xpm">fileopen.xpm</innerfile>
+    <innerfile refid="filesave_8xpm">filesave.xpm</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="moc__configwizard_8cpp">moc_configwizard.cpp</innerfile>
+    <innerfile refid="qrc__application_8cpp">qrc_application.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/magentarain/cpp/configwizard/src/"/>
+  </compounddef>
+</doxygen>

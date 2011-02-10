@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="dir_910bc421faba56e8c2256d253e01e550" kind="dir">
+    <compoundname>/home/magentarain/cpp/</compoundname>
+    <innerdir refid="dir_11fdfce578673f07e8f7ca221858e860">/home/magentarain/cpp/configwizard/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/magentarain/cpp/"/>
+  </compounddef>
+</doxygen>

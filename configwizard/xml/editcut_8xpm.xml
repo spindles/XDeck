@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="editcut_8xpm" kind="file">
+    <compoundname>editcut.xpm</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="editcut_8xpm_15c6dbb1908552e3c6ce9edc3ad0b1185" prot="public" static="yes" mutable="no">
+        <type>char *</type>
+        <definition>char* editcut[]</definition>
+        <argsstring>[]</argsstring>
+        <name>editcut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/editcut.xpm" line="252" bodyfile="/home/magentarain/cpp/configwizard/src/editcut.xpm" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>XPM<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*editcut[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>columns<sp/>rows<sp/>colors<sp/>chars-per-pixel<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;32<sp/>32<sp/>214<sp/>2&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>c<sp/>#000000&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;.<sp/><sp/>c<sp/>#0B0B0B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;X<sp/><sp/>c<sp/>#181300&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;o<sp/><sp/>c<sp/>#1D190B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;O<sp/><sp/>c<sp/>#131313&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;+<sp/><sp/>c<sp/>#1B1B1B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;@<sp/><sp/>c<sp/>#211E11&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;#<sp/><sp/>c<sp/>#26231A&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;$<sp/><sp/>c<sp/>#2A2513&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;%<sp/><sp/>c<sp/>#2E2912&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&amp;<sp/><sp/>c<sp/>#2E2A19&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;*<sp/><sp/>c<sp/>#372E0B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;=<sp/><sp/>c<sp/>#302A12&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;-<sp/><sp/>c<sp/>#312C1B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;;<sp/><sp/>c<sp/>#3A320F&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;:<sp/><sp/>c<sp/>#3C3415&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&gt;<sp/><sp/>c<sp/>#3C351B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;,<sp/><sp/>c<sp/>#232323&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&lt;<sp/><sp/>c<sp/>#2B2922&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;1<sp/><sp/>c<sp/>#2C2C2C&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;2<sp/><sp/>c<sp/>#302E26&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;3<sp/><sp/>c<sp/>#353120&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;4<sp/><sp/>c<sp/>#3F3B2D&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;5<sp/><sp/>c<sp/>#313131&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;6<sp/><sp/>c<sp/>#3A3A3A&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;7<sp/><sp/>c<sp/>#423814&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;8<sp/><sp/>c<sp/>#493E17&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;9<sp/><sp/>c<sp/>#413D2F&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;0<sp/><sp/>c<sp/>#423F32&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;q<sp/><sp/>c<sp/>#4F4319&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;w<sp/><sp/>c<sp/>#5C4A00&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;e<sp/><sp/>c<sp/>#5F4F0D&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;r<sp/><sp/>c<sp/>#514410&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;t<sp/><sp/>c<sp/>#554813&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;y<sp/><sp/>c<sp/>#4E472C&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;u<sp/><sp/>c<sp/>#444136&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;i<sp/><sp/>c<sp/>#4A483F&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;p<sp/><sp/>c<sp/>#534B2B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;a<sp/><sp/>c<sp/>#504B37&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;s<sp/><sp/>c<sp/>#514C3A&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;d<sp/><sp/>c<sp/>#654F04&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;f<sp/><sp/>c<sp/>#604F0B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;g<sp/><sp/>c<sp/>#665200&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;h<sp/><sp/>c<sp/>#675509&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;j<sp/><sp/>c<sp/>#6B5405&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;k<sp/><sp/>c<sp/>#6C5807&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;l<sp/><sp/>c<sp/>#6C590B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;z<sp/><sp/>c<sp/>#745B04&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;x<sp/><sp/>c<sp/>#715D0A&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;c<sp/><sp/>c<sp/>#7B5B02&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;v<sp/><sp/>c<sp/>#625B3B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;b<sp/><sp/>c<sp/>#7E6815&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;n<sp/><sp/>c<sp/>#6C643E&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;m<sp/><sp/>c<sp/>#4D4B42&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;M<sp/><sp/>c<sp/>#494949&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;N<sp/><sp/>c<sp/>#504D43&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;B<sp/><sp/>c<sp/>#54534C&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;V<sp/><sp/>c<sp/>#515151&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;C<sp/><sp/>c<sp/>#5D5B54&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;Z<sp/><sp/>c<sp/>#656048&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;A<sp/><sp/>c<sp/>#736A44&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;S<sp/><sp/>c<sp/>#726C54&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;D<sp/><sp/>c<sp/>#77725B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;F<sp/><sp/>c<sp/>#696968&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;G<sp/><sp/>c<sp/>gray50&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;H<sp/><sp/>c<sp/>#826203&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;J<sp/><sp/>c<sp/>#806609&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;K<sp/><sp/>c<sp/>#836907&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;L<sp/><sp/>c<sp/>#8D6A03&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;P<sp/><sp/>c<sp/>#9A6F00&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;I<sp/><sp/>c<sp/>#9B7005&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;U<sp/><sp/>c<sp/>#9E730E&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;Y<sp/><sp/>c<sp/>#9C7511&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;T<sp/><sp/>c<sp/>#85732C&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;R<sp/><sp/>c<sp/>#88783B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;E<sp/><sp/>c<sp/>#AE7C00&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;W<sp/><sp/>c<sp/>#A87B13&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;Q<sp/><sp/>c<sp/>#847B53&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;!<sp/><sp/>c<sp/>#827D64&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;~<sp/><sp/>c<sp/>#9C862E&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;^<sp/><sp/>c<sp/>#A98A1F&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;/<sp/><sp/>c<sp/>#B28D0A&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;(<sp/><sp/>c<sp/>#B88D00&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;)<sp/><sp/>c<sp/>#B2821A&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;_<sp/><sp/>c<sp/>#B18E1B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;`<sp/><sp/>c<sp/>#B3941C&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&apos;<sp/><sp/>c<sp/>#A88E2C&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;]<sp/><sp/>c<sp/>#A28C36&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;[<sp/><sp/>c<sp/>#AE9224&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;{<sp/><sp/>c<sp/>#89815E&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;}<sp/><sp/>c<sp/>#87826D&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;|<sp/><sp/>c<sp/>#858174&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;<sp/>.<sp/>c<sp/>#888370&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;..<sp/>c<sp/>#8E8A7D&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;X.<sp/>c<sp/>#928C71&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;o.<sp/>c<sp/>#A28E44&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;O.<sp/>c<sp/>#AA9F74&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;+.<sp/>c<sp/>#B9A456&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;@.<sp/>c<sp/>#BDA85B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;#.<sp/>c<sp/>#B2A068&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;$.<sp/>c<sp/>#C28700&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;%.<sp/>c<sp/>#CC8E00&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&amp;.<sp/>c<sp/>#C29A00&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;*.<sp/>c<sp/>#C4962F&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;=.<sp/>c<sp/>#CCA100&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;-.<sp/>c<sp/>#D6A800&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;;.<sp/>c<sp/>#D1AC1B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;:.<sp/>c<sp/>#DDB31A&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&gt;.<sp/>c<sp/>#D2A922&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;,.<sp/>c<sp/>#D4AE2B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&lt;.<sp/>c<sp/>#DBA12E&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;1.<sp/>c<sp/>#DBA433&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;2.<sp/>c<sp/>#DDB428&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;3.<sp/>c<sp/>#D2B23B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;4.<sp/>c<sp/>#E6A200&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;5.<sp/>c<sp/>#E8A509&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;6.<sp/>c<sp/>#EAAF00&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;7.<sp/>c<sp/>#EFAC1E&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;8.<sp/>c<sp/>#F5A100&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;9.<sp/>c<sp/>#FFAD02&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;0.<sp/>c<sp/>#FCAF0D&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;q.<sp/>c<sp/>#FCB005&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;w.<sp/>c<sp/>#FFB60C&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;e.<sp/>c<sp/>#FFBD00&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;r.<sp/>c<sp/>#FFBD16&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;t.<sp/>c<sp/>#E3B432&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;y.<sp/>c<sp/>#E8BF3C&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;u.<sp/>c<sp/>#F6BE2F&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;i.<sp/>c<sp/>#C6A949&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;p.<sp/>c<sp/>#D9A948&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;a.<sp/>c<sp/>#D8AB52&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;s.<sp/>c<sp/>#DBBA45&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;d.<sp/>c<sp/>#C5B162&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;f.<sp/>c<sp/>#ECB74D&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;g.<sp/>c<sp/>#EFB841&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;h.<sp/>c<sp/>#EFBE4A&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;j.<sp/>c<sp/>#EABA55&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;k.<sp/>c<sp/>#FDC006&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;l.<sp/>c<sp/>#FFC10B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;z.<sp/>c<sp/>#FFC800&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;x.<sp/>c<sp/>#FFC90D&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;c.<sp/>c<sp/>#FAC113&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;v.<sp/>c<sp/>#FBC11C&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;b.<sp/>c<sp/>#FDC910&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;n.<sp/>c<sp/>#EDC233&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;m.<sp/>c<sp/>#F5C32D&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;M.<sp/>c<sp/>#FFC728&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;N.<sp/>c<sp/>#F4C537&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;B.<sp/>c<sp/>#F6C63A&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;V.<sp/>c<sp/>#F5CB36&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;C.<sp/>c<sp/>#FFD73D&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;Z.<sp/>c<sp/>#E9C659&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;A.<sp/>c<sp/>#EAC85A&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;S.<sp/>c<sp/>#FFDA4B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;D.<sp/>c<sp/>#FFDD5D&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;F.<sp/>c<sp/>#E9CD6B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;G.<sp/>c<sp/>#FFD560&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;H.<sp/>c<sp/>#FFE06C&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;J.<sp/>c<sp/>gray56&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;K.<sp/>c<sp/>#959595&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;L.<sp/>c<sp/>gray62&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;P.<sp/>c<sp/>#A6A18A&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;I.<sp/>c<sp/>#A8A69E&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;U.<sp/>c<sp/>#AEA895&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;Y.<sp/>c<sp/>#B3AC8F&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;T.<sp/>c<sp/>#B8AF8B&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;R.<sp/>c<sp/>#B4AD96&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;E.<sp/>c<sp/>#B8B199&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;W.<sp/>c<sp/>#A4A4A4&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;Q.<sp/>c<sp/>#AAAAAA&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;!.<sp/>c<sp/>#B0ADA3&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;~.<sp/>c<sp/>#BBB6A3&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;^.<sp/>c<sp/>#B1B1B1&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;/.<sp/>c<sp/>#B9B9B6&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;(.<sp/>c<sp/>#BBBBBA&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;).<sp/>c<sp/>#C5BC9D&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;_.<sp/>c<sp/>#C2BCA2&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;`.<sp/>c<sp/>#C1BEB5&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&apos;.<sp/>c<sp/>#D2C38E&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;].<sp/>c<sp/>#DCC78C&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;[.<sp/>c<sp/>#C7C0A7&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;{.<sp/>c<sp/>#C7C2AE&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;}.<sp/>c<sp/>#C7C3B2&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;|.<sp/>c<sp/>#C5C2B8&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;<sp/>X<sp/>c<sp/>#CAC6B6&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;.X<sp/>c<sp/>#CBC9BE&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;XX<sp/>c<sp/>#D9D3BB&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;oX<sp/>c<sp/>#E6D08A&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;OX<sp/>c<sp/>#E7DEBD&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;+X<sp/>c<sp/>#ECDEB3&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;@X<sp/>c<sp/>#FFF0B9&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;#X<sp/>c<sp/>#C5C5C5&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;$X<sp/>c<sp/>#CECCC7&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;%X<sp/>c<sp/>#D0CEC5&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&amp;X<sp/>c<sp/>#D0CFC8&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;*X<sp/>c<sp/>#D2D1CB&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;=X<sp/>c<sp/>#DBD6C5&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;-X<sp/>c<sp/>#DBD7C9&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;;X<sp/>c<sp/>#D3D3D1&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;:X<sp/>c<sp/>#DBDBDB&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&gt;X<sp/>c<sp/>#E5E1D6&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;,X<sp/>c<sp/>#E5E3DA&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&lt;X<sp/>c<sp/>#E8E5D9&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;1X<sp/>c<sp/>#EDEADC&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;2X<sp/>c<sp/>#FEF6DE&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;3X<sp/>c<sp/>#E6E6E6&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;4X<sp/>c<sp/>#E9E7E2&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;5X<sp/>c<sp/>#E9E8E4&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;6X<sp/>c<sp/>#EDECEA&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;7X<sp/>c<sp/>#F2F1EB&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;8X<sp/>c<sp/>#F1F1F1&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;9X<sp/>c<sp/>#F8F7F4&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;0X<sp/>c<sp/>#F9F8F8&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qX<sp/>c<sp/>None&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>pixels<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqXqXqX5<sp/>5<sp/>5<sp/>1<sp/>,<sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqXqX5<sp/>V<sp/>/.&amp;XQ.F<sp/>1<sp/>,<sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqXqXqXqXqXqXqXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqXqX5<sp/>_.D.S.H.@X&amp;X6<sp/>.<sp/><sp/><sp/>qXqXqXqXqXqXqXqXqXqXqXqXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqXqX5<sp/>S.=.w<sp/>g<sp/>&amp;.C...+<sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqXqXqXqXqXqXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqXqX5<sp/>-.&apos;<sp/>+<sp/>o<sp/>t<sp/>z.d.,<sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqXqXqXqXqXqXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqX5<sp/>C<sp/>V.@.+<sp/><sp/><sp/>3<sp/>:.3.,<sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqXqXqXqXqXqXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqX5<sp/>&apos;.b.F.6<sp/>,<sp/>1<sp/>s.,.,<sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqXqXqXqXqXqXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqX1<sp/>b<sp/>(<sp/>n.OXE.E.F.^<sp/>+<sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqXqXqX5<sp/>5<sp/>1<sp/>,<sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqX<sp/><sp/>l<sp/>x<sp/>K<sp/>A.oXoXZ.i.,<sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqX5<sp/>V<sp/>&amp;X0X6X,<sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqX<sp/><sp/><sp/><sp/><sp/><sp/>8<sp/>(<sp/>c.v.k.N.1<sp/><sp/><sp/><sp/><sp/>qXqXqXqX5<sp/>V<sp/>$X0X0X9XXX,<sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqXqX<sp/><sp/><sp/><sp/>O<sp/>t<sp/>6.e.e.k.S<sp/>O<sp/><sp/><sp/><sp/><sp/>5<sp/>5<sp/>V<sp/>$X8X8X8X1XD<sp/>:<sp/>O<sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqXqXqXqX<sp/><sp/>3<sp/>J<sp/>e.G.7X#.+<sp/>.<sp/>5<sp/>C<sp/>|.3X3X5X4X_.4<sp/>%<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqXqXqXqX<sp/><sp/><sp/><sp/>q<sp/>].0X0X+X,<sp/>B<sp/>}.:X:X:X:X=XS<sp/>&amp;<sp/>o<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqXqXqXqXqX<sp/><sp/>+<sp/>M<sp/>8X8X7XU.Q.#X*X*X*XR.&lt;<sp/>%<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqXqXqXqXqXqX,<sp/>1<sp/><sp/>X6XW.G<sp/>Q.L.^.{.Z<sp/>@<sp/>.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqXqXqXqX5<sp/>5<sp/>m<sp/>P.W.:X6<sp/>.<sp/>3X/.X.,<sp/>@<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qXqXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqX5<sp/>5<sp/>5<sp/>n<sp/>+.R.W.J.K.W.^.:X:X1Xm<sp/>+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qXqXqXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqX5<sp/>5<sp/>i<sp/>o.y.v.q./<sp/>P.I.}<sp/>|<sp/>R.&amp;X*X;X8X<sp/>.,<sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqX5<sp/>5<sp/>5<sp/>R<sp/>3.M.5.E<sp/>L<sp/>7.4._<sp/>0<sp/>+<sp/>O<sp/>+<sp/>i<sp/>).#X#X5X~.,<sp/>O<sp/><sp/><sp/><sp/><sp/>qXqXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qX5<sp/>u<sp/>]<sp/>m.r.%.H<sp/>r<sp/>:<sp/>,<sp/>t.0.P<sp/>7<sp/><sp/><sp/><sp/><sp/><sp/><sp/>$<sp/>,<sp/>{<sp/>`.(.;X-X,<sp/>+<sp/><sp/><sp/><sp/><sp/>qXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;5<sp/>u<sp/>2.w.$.k<sp/>t<sp/>o<sp/><sp/><sp/>,<sp/>~<sp/>h.P<sp/>l<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>u<sp/>T.^.#X&lt;XN<sp/>,<sp/><sp/><sp/><sp/><sp/>qXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;5<sp/>&gt;.9.U<sp/>r<sp/>.<sp/><sp/><sp/>.<sp/>,<sp/>T<sp/>B.*.x<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qX<sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>,<sp/>Q<sp/>!.Q.&lt;XC<sp/>,<sp/><sp/><sp/><sp/><sp/>qX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;p<sp/>q.1.&gt;<sp/>.<sp/><sp/><sp/>+<sp/>1<sp/>[<sp/>m.p.k<sp/>.<sp/><sp/><sp/><sp/><sp/><sp/><sp/>qXqXqXqX<sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>u<sp/>O.W.;X!<sp/>+<sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;4<sp/>8.j.`<sp/>p<sp/>5<sp/>y<sp/>;.u.a.d<sp/>%<sp/><sp/><sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqX<sp/><sp/><sp/><sp/><sp/><sp/>O<sp/>,<sp/>A<sp/>P._.,<sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;1<sp/>x<sp/>&lt;.f.m.x.b.y.a.g<sp/>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqXqXqX<sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>0<sp/>v<sp/>O<sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;<sp/><sp/>-<sp/>h<sp/>c<sp/>W<sp/>W<sp/>W<sp/>W<sp/>z<sp/>:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqXqXqXqXqX<sp/><sp/><sp/><sp/><sp/><sp/>.<sp/>.<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>e<sp/>l<sp/>l<sp/>f<sp/>X<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqXqXqXqXqXqXqXqX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqX<sp/><sp/><sp/><sp/><sp/><sp/>qX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqX&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;qXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqXqX&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/home/magentarain/cpp/configwizard/src/editcut.xpm"/>
+  </compounddef>
+</doxygen>

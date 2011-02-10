@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="classNewPage" kind="class" prot="public">
+    <compoundname>NewPage</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classNewPage_1699b321942174cc0ea6cebc4630070fe" prot="private" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* NewPage::nameLabel</definition>
+        <argsstring></argsstring>
+        <name>nameLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="110" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNewPage_1c17dde3264f18a82e4d9a0f56088df83" prot="private" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* NewPage::emailLabel</definition>
+        <argsstring></argsstring>
+        <name>emailLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="111" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNewPage_180c9ad6f32febc1ca75e9d4f304096c9" prot="private" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* NewPage::nameLineEdit</definition>
+        <argsstring></argsstring>
+        <name>nameLineEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="112" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNewPage_18bc225b8d1934f704946e099ff3f375b" prot="private" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* NewPage::emailLineEdit</definition>
+        <argsstring></argsstring>
+        <name>emailLineEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="113" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classNewPage_192ab7f62f39a27244c412cffb9b303e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NewPage::NewPage</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>NewPage</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="105" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.cpp" bodystart="103" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classNewPage_10362ed01e96da0dfc195fa737761e317" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewPage::CreateDatabase</definition>
+        <argsstring>()</argsstring>
+        <name>CreateDatabase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="106" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.cpp" bodystart="134" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classNewPage_1053ff289fc90ccd29220e459c25808b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool NewPage::validatePage</definition>
+        <argsstring>()</argsstring>
+        <name>validatePage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="107" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.cpp" bodystart="128" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="101" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="100" bodyend="114"/>
+    <listofallmembers>
+      <member refid="classNewPage_10362ed01e96da0dfc195fa737761e317" prot="public" virt="non-virtual"><scope>NewPage</scope><name>CreateDatabase</name></member>
+      <member refid="classNewPage_1c17dde3264f18a82e4d9a0f56088df83" prot="private" virt="non-virtual"><scope>NewPage</scope><name>emailLabel</name></member>
+      <member refid="classNewPage_18bc225b8d1934f704946e099ff3f375b" prot="private" virt="non-virtual"><scope>NewPage</scope><name>emailLineEdit</name></member>
+      <member refid="classNewPage_1699b321942174cc0ea6cebc4630070fe" prot="private" virt="non-virtual"><scope>NewPage</scope><name>nameLabel</name></member>
+      <member refid="classNewPage_180c9ad6f32febc1ca75e9d4f304096c9" prot="private" virt="non-virtual"><scope>NewPage</scope><name>nameLineEdit</name></member>
+      <member refid="classNewPage_192ab7f62f39a27244c412cffb9b303e1" prot="public" virt="non-virtual"><scope>NewPage</scope><name>NewPage</name></member>
+      <member refid="classNewPage_1053ff289fc90ccd29220e459c25808b5" prot="public" virt="non-virtual"><scope>NewPage</scope><name>validatePage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

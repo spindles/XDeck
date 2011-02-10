@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="classLoadOrNewPage" kind="class" prot="public">
+    <compoundname>LoadOrNewPage</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classLoadOrNewPage_1b5597c477b1202776afd821d710d5631" prot="private" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* LoadOrNewPage::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="83" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLoadOrNewPage_18a42c5bbaf81c039d666b0c65fd00f6a" prot="private" static="no" mutable="no">
+        <type>QGroupBox *</type>
+        <definition>QGroupBox* LoadOrNewPage::groupBox</definition>
+        <argsstring></argsstring>
+        <name>groupBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="84" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLoadOrNewPage_1f387a31fdc6194fb4b5d4f55729f5f6d" prot="private" static="no" mutable="no">
+        <type>QRadioButton *</type>
+        <definition>QRadioButton* LoadOrNewPage::radioButtonNew</definition>
+        <argsstring></argsstring>
+        <name>radioButtonNew</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="85" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLoadOrNewPage_11070d46e98db758d73d532c312715f01" prot="private" static="no" mutable="no">
+        <type>QRadioButton *</type>
+        <definition>QRadioButton* LoadOrNewPage::radioButtonExisting</definition>
+        <argsstring></argsstring>
+        <name>radioButtonExisting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="86" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLoadOrNewPage_107a6496bf59a6730fe836ab8569d0743" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LoadOrNewPage::LoadOrNewPage</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>LoadOrNewPage</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="79" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.cpp" bodystart="69" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classLoadOrNewPage_1d3b5eb9d73be76a576cc697007f483f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int LoadOrNewPage::nextId</definition>
+        <argsstring>() const </argsstring>
+        <name>nextId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="80" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.cpp" bodystart="88" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="75" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="74" bodyend="87"/>
+    <listofallmembers>
+      <member refid="classLoadOrNewPage_18a42c5bbaf81c039d666b0c65fd00f6a" prot="private" virt="non-virtual"><scope>LoadOrNewPage</scope><name>groupBox</name></member>
+      <member refid="classLoadOrNewPage_1b5597c477b1202776afd821d710d5631" prot="private" virt="non-virtual"><scope>LoadOrNewPage</scope><name>label</name></member>
+      <member refid="classLoadOrNewPage_107a6496bf59a6730fe836ab8569d0743" prot="public" virt="non-virtual"><scope>LoadOrNewPage</scope><name>LoadOrNewPage</name></member>
+      <member refid="classLoadOrNewPage_1d3b5eb9d73be76a576cc697007f483f3" prot="public" virt="non-virtual"><scope>LoadOrNewPage</scope><name>nextId</name></member>
+      <member refid="classLoadOrNewPage_11070d46e98db758d73d532c312715f01" prot="private" virt="non-virtual"><scope>LoadOrNewPage</scope><name>radioButtonExisting</name></member>
+      <member refid="classLoadOrNewPage_1f387a31fdc6194fb4b5d4f55729f5f6d" prot="private" virt="non-virtual"><scope>LoadOrNewPage</scope><name>radioButtonNew</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

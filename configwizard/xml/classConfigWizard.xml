@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="classConfigWizard" kind="class" prot="public">
+    <compoundname>ConfigWizard</compoundname>
+    <includes refid="configwizard_8h" local="no">configwizard.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classConfigWizard_18a78c53dc0e139b26f7eac35ef46e79b" prot="public" static="no">
+        <name>@0</name>
+        <enumvalue id="classConfigWizard_18a78c53dc0e139b26f7eac35ef46e79bd4f35dbba4ba4e5d00dcb9455eba52d2" prot="public">
+          <name>Intro_Page</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classConfigWizard_18a78c53dc0e139b26f7eac35ef46e79b3b8c9426dc98b7f8a98c416082e8f048" prot="public">
+          <name>Load_Or_New_Page</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classConfigWizard_18a78c53dc0e139b26f7eac35ef46e79ba9b68bdbfd37704eed2509507a983a9c" prot="public">
+          <name>Load_Page</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classConfigWizard_18a78c53dc0e139b26f7eac35ef46e79b7ab6c92d04524ffe859694f71b7258ed" prot="public">
+          <name>New_Page</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classConfigWizard_18a78c53dc0e139b26f7eac35ef46e79bd9b9a16d96515b9208d484a0f8946494" prot="public">
+          <name>Basic_Stats</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>enum of wizard pages </para>        </briefdescription>
+        <detaileddescription>
+<para>Enumeration of pages and the order in which they appear. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="47" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classConfigWizard_17980315d7bb0393fb519af33aaaa39d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ConfigWizard::ConfigWizard</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>ConfigWizard</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Default Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Default Constructor for <ref refid="classConfigWizard" kindref="compound">ConfigWizard</ref> class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="48" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.cpp" bodystart="38" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classConfigWizard" kindref="compound">ConfigWizard</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>Main QWizard class. </para>    </detaileddescription>
+    <location file="/home/magentarain/cpp/configwizard/src/configwizard.h" line="41" bodyfile="/home/magentarain/cpp/configwizard/src/configwizard.h" bodystart="40" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classConfigWizard_18a78c53dc0e139b26f7eac35ef46e79bd9b9a16d96515b9208d484a0f8946494" prot="public" virt="non-virtual"><scope>ConfigWizard</scope><name>Basic_Stats</name></member>
+      <member refid="classConfigWizard_17980315d7bb0393fb519af33aaaa39d8" prot="public" virt="non-virtual"><scope>ConfigWizard</scope><name>ConfigWizard</name></member>
+      <member refid="classConfigWizard_18a78c53dc0e139b26f7eac35ef46e79bd4f35dbba4ba4e5d00dcb9455eba52d2" prot="public" virt="non-virtual"><scope>ConfigWizard</scope><name>Intro_Page</name></member>
+      <member refid="classConfigWizard_18a78c53dc0e139b26f7eac35ef46e79b3b8c9426dc98b7f8a98c416082e8f048" prot="public" virt="non-virtual"><scope>ConfigWizard</scope><name>Load_Or_New_Page</name></member>
+      <member refid="classConfigWizard_18a78c53dc0e139b26f7eac35ef46e79ba9b68bdbfd37704eed2509507a983a9c" prot="public" virt="non-virtual"><scope>ConfigWizard</scope><name>Load_Page</name></member>
+      <member refid="classConfigWizard_18a78c53dc0e139b26f7eac35ef46e79b7ab6c92d04524ffe859694f71b7258ed" prot="public" virt="non-virtual"><scope>ConfigWizard</scope><name>New_Page</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
