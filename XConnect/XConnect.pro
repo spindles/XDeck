@@ -55,8 +55,11 @@ FORMS += mainwindow.ui \
     shield.ui \
     wizardbook.ui
 RESOURCES += images.qrc
-OTHER_FILES += TODO.txt \
-    ATTRIBUTIONS.txt \
-    README.txt \
-    ../configwizard/src/src.pro
-LIBS += -lFestival -lestools -lestbase -leststring -lncurses -lasound
+OTHER_FILES += ATTRIBUTIONS.txt \
+    README.txt
+LIBS += -lFestival \
+    -lestools \
+    -lestbase \
+    -leststring \
+    -lncurses \
+    -lasound
