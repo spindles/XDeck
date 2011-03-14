@@ -7,7 +7,7 @@ QT += network \
     svg \
     webkit \
     gui
-TARGET = XConnect
+TARGET = ../XConnect
 TEMPLATE = app
 SOURCES += main.cpp \
     charactersheet.cpp \
@@ -55,8 +55,6 @@ FORMS += mainwindow.ui \
     shield.ui \
     wizardbook.ui
 RESOURCES += images.qrc
-OTHER_FILES += ATTRIBUTIONS.txt \
-    README.txt
 LIBS += -lFestival \
     -lestools \
     -lestbase \

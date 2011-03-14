@@ -8,5 +8,3 @@ CONFIG += warn_on \
 TARGET = configwizard
 RESOURCES = application.qrc
 QT += sql
-OTHER_FILES += TODO.txt \
-    README.txt
