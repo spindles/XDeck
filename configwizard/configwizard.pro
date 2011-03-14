@@ -5,6 +5,6 @@ TEMPLATE = app
 CONFIG += warn_on \
     thread \
     qt
-TARGET = configwizard
+TARGET = ../cwizard
 RESOURCES = application.qrc
 QT += sql

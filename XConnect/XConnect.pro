@@ -7,7 +7,7 @@ QT += network \
     svg \
     webkit \
     gui
-TARGET = ../XConnect
+TARGET = ../xconnect
 TEMPLATE = app
 SOURCES += main.cpp \
     charactersheet.cpp \
