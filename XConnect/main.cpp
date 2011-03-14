@@ -21,7 +21,7 @@
 
 #include <QtGui/QApplication>
 #include "mainwindow.h"
-#include "festival/festival.h"
+#include <festival.h>
 
 int main(int argc, char *argv[])
 {

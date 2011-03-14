@@ -21,7 +21,7 @@
 
 #include "cloak.h"
 #include "ui_cloak.h"
-#include "festival/festival.h"
+#include <festival.h>
 #include <stdio.h>
 #include <iostream>
 #include <sstream>
@@ -35,7 +35,7 @@ Cloak::Cloak(CharacterSheet& cs, QWidget *parent) :
     intelligence = csLocal->intelligence;
     netrunning = csLocal->netrunning;
     timerLength = intelligence + netrunning;
-    cloakTime = QTime::QTime(0, timerLength, 0, 0);
+    cloakTime = QTime(0, timerLength, 0, 0);
     ui->lcdNumber->display(cloakTime.toString("mm:ss"));
     counter = 0;
     timerRunning=false;

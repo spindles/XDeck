@@ -59,13 +59,4 @@ OTHER_FILES += TODO.txt \
     ATTRIBUTIONS.txt \
     README.txt \
     ../configwizard/src/src.pro
-LIBS += -L/home/xdeck/sources/xdeck/festival/festival/src/lib \
-    -lFestival \
-    -L/home/xdeck/sources/xdeck/festival/speech_tools/lib \
-    -lestools \
-    -L/home/xdeck/sources/xdeck/festival/speech_tools/lib \
-    -lestbase \
-    -L/home/xdeck/sources/xdeck/festival/speech_tools/lib \
-    -leststring \
-    -lncurses \
-    -lasound
+LIBS += -lFestival -lestools -lestbase -leststring -lncurses -lasound

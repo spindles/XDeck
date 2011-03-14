@@ -182,14 +182,14 @@ void CharacterSheet::loadAvatars()
 {
     QDir resourceDir = QDir(":/avatars/images/avatars");
     int numberOfAvatars = resourceDir.count();
-    avatars = QVector<QImage>::QVector(numberOfAvatars);
+    avatars = QVector<QImage>(numberOfAvatars);
     QStringList fileNames = resourceDir.entryList();
     for (int i = 0; i < fileNames.size(); i++)
     {
         QString avatarFileName = resourceDir.absolutePath();
         avatarFileName.append("/");
         avatarFileName.append(fileNames.at(i));
-        QImage avatar = QImage::QImage(avatarFileName, 0);
+        QImage avatar = QImage(avatarFileName, 0);
         avatars[i] = avatar;
     }
 }

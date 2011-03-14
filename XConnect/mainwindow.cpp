@@ -24,7 +24,7 @@
 #include <QtOpenGL>
 #include <QSvgWidget>
 #include <QGraphicsScene>
-#include "festival/festival.h"
+#include <festival.h>
 #include <EST_String.h>
 
 MainWindow::MainWindow(QWidget *parent) :
