@@ -22,6 +22,7 @@
 #include "charactersheet.h"
 #include <QDir>
 #include <QFile>
+#include <QtGui/QApplication>
 
 CharacterSheet::CharacterSheet()
 {
@@ -40,142 +41,140 @@ void CharacterSheet::loadUserDetails()
     QFile file(configFilePath);
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
     {
-        //qWarning("File not found");
+        userFileName = "NULL";
     }
     else
     {
         userFileName = file.readAll();
-        //qWarning(userFileName.toLatin1());
+        dbPath = userFileName;
+        configdb = QSqlDatabase::addDatabase("QSQLITE","userDB");
+        configdb.setDatabaseName(dbPath);
+        if( configdb.open() )
+        {
+            //qWarning("Database open");
+        }
+        else
+        {
+            qWarning() << "configwizard must be ran before you can use xconnect.";
+        }
+
+        QSqlQuery getPlayerStats(configdb);
+
+        // Get base data
+        QString getPlayerBaseData = "SELECT * FROM tuser";
+        getPlayerStats.exec(getPlayerBaseData);
+        getPlayerStats.next();
+        userName = getPlayerStats.value(1).toString();
+        userEmail = getPlayerStats.value(2).toString();
+
+        // qWarning() << "Name = " << userName << " email = " << userEmail;
+
+        // Get Stats
+        QString getPlayerStatsSQL = "SELECT * FROM tstats";
+        getPlayerStats.exec(getPlayerStatsSQL);
+        getPlayerStats.next();
+        intelligence = getPlayerStats.value(1).toInt();
+        netrunning = getPlayerStats.value(2).toInt();
+
+        QString getDeckStatsSQL = "SELECT * FROM tdeckstats";
+        getPlayerStats.exec(getDeckStatsSQL);
+        while (getPlayerStats.next())
+        {
+           if(getPlayerStats.value(0).toString() == "Black Mask")
+           {
+               if(getPlayerStats.value(1).toString() == "true")
+                   BlackMask = true;
+               else
+                   BlackMask = false;
+           }
+           if(getPlayerStats.value(0).toString() == "Cloak")
+           {
+               if(getPlayerStats.value(1).toString() == "true")
+                   Cloak = true;
+               else
+                   Cloak = false;
+           }
+           if(getPlayerStats.value(0).toString() == "DArc Knight")
+           {
+               if(getPlayerStats.value(1).toString() == "true")
+                   DArcKnight = true;
+               else
+                   DArcKnight = false;
+           }
+           if(getPlayerStats.value(0).toString() == "Flatline")
+           {
+               if(getPlayerStats.value(1).toString() == "true")
+                   Flatline = true;
+               else
+                   Flatline = false;
+           }
+           if(getPlayerStats.value(0).toString() == "Genie")
+           {
+               if(getPlayerStats.value(1).toString() == "true")
+                   Genie = true;
+               else
+                   Genie = false;
+           }
+           if(getPlayerStats.value(0).toString() == "Guard Dog")
+           {
+               if(getPlayerStats.value(1).toString() == "true")
+                   GuardDog = true;
+               else
+                   GuardDog = false;
+           }
+           if(getPlayerStats.value(0).toString() == "Hammer")
+           {
+               if(getPlayerStats.value(1).toString() == "true")
+                   Hammer = true;
+               else
+                   Hammer = false;
+           }
+           if(getPlayerStats.value(0).toString() == "HellHound")
+           {
+               if(getPlayerStats.value(1).toString() == "true")
+                   HellHound = true;
+               else
+                   HellHound = false;
+           }
+           if(getPlayerStats.value(0).toString() == "Hydra")
+           {
+               if(getPlayerStats.value(1).toString() == "true")
+                   Hydra = true;
+               else
+                   Hydra = false;
+           }
+           if(getPlayerStats.value(0).toString() == "Lightning Bug")
+           {
+               if(getPlayerStats.value(1).toString() == "true")
+                   LightningBug = true;
+               else
+                   LightningBug = false;
+           }
+           if(getPlayerStats.value(0).toString() == "Reaper")
+           {
+               if(getPlayerStats.value(1).toString() == "true")
+                   Reaper = true;
+               else
+                   Reaper = false;
+           }
+           if(getPlayerStats.value(0).toString() == "Shield")
+           {
+               if(getPlayerStats.value(1).toString() == "true")
+                   Shield = true;
+               else
+                   Shield = false;
+           }
+           if(getPlayerStats.value(0).toString() == "Wizards Book")
+           {
+               if(getPlayerStats.value(1).toString() == "true")
+                   WizardsBook = true;
+               else
+                   WizardsBook = false;
+           }
+        }
+        configdb.close();
+        configdb.removeDatabase("userDB");
     }
-
-    dbPath = userFileName;
-    configdb = QSqlDatabase::addDatabase("QSQLITE","userDB");
-    configdb.setDatabaseName(dbPath);
-    if( configdb.open() )
-    {
-        //qWarning("Database open");
-    }
-    else
-    {
-        //qWarning() << "Database not open! Filepath:" << dbPath;
-    }
-
-    QSqlQuery getPlayerStats(configdb);
-
-    // Get base data
-    QString getPlayerBaseData = "SELECT * FROM tuser";
-    getPlayerStats.exec(getPlayerBaseData);
-    getPlayerStats.next();
-    userName = getPlayerStats.value(1).toString();
-    userEmail = getPlayerStats.value(2).toString();
-
-    // qWarning() << "Name = " << userName << " email = " << userEmail;
-
-    // Get Stats
-    QString getPlayerStatsSQL = "SELECT * FROM tstats";
-    getPlayerStats.exec(getPlayerStatsSQL);
-    getPlayerStats.next();
-    intelligence = getPlayerStats.value(1).toInt();
-    netrunning = getPlayerStats.value(2).toInt();
-
-    QString getDeckStatsSQL = "SELECT * FROM tdeckstats";
-    getPlayerStats.exec(getDeckStatsSQL);
-    while (getPlayerStats.next())
-    {
-       if(getPlayerStats.value(0).toString() == "Black Mask")
-       {
-           if(getPlayerStats.value(1).toString() == "true")
-               BlackMask = true;
-           else
-               BlackMask = false;
-       }
-       if(getPlayerStats.value(0).toString() == "Cloak")
-       {
-           if(getPlayerStats.value(1).toString() == "true")
-               Cloak = true;
-           else
-               Cloak = false;
-       }
-       if(getPlayerStats.value(0).toString() == "DArc Knight")
-       {
-           if(getPlayerStats.value(1).toString() == "true")
-               DArcKnight = true;
-           else
-               DArcKnight = false;
-       }
-       if(getPlayerStats.value(0).toString() == "Flatline")
-       {
-           if(getPlayerStats.value(1).toString() == "true")
-               Flatline = true;
-           else
-               Flatline = false;
-       }
-       if(getPlayerStats.value(0).toString() == "Genie")
-       {
-           if(getPlayerStats.value(1).toString() == "true")
-               Genie = true;
-           else
-               Genie = false;
-       }
-       if(getPlayerStats.value(0).toString() == "Guard Dog")
-       {
-           if(getPlayerStats.value(1).toString() == "true")
-               GuardDog = true;
-           else
-               GuardDog = false;
-       }
-       if(getPlayerStats.value(0).toString() == "Hammer")
-       {
-           if(getPlayerStats.value(1).toString() == "true")
-               Hammer = true;
-           else
-               Hammer = false;
-       }
-       if(getPlayerStats.value(0).toString() == "HellHound")
-       {
-           if(getPlayerStats.value(1).toString() == "true")
-               HellHound = true;
-           else
-               HellHound = false;
-       }
-       if(getPlayerStats.value(0).toString() == "Hydra")
-       {
-           if(getPlayerStats.value(1).toString() == "true")
-               Hydra = true;
-           else
-               Hydra = false;
-       }
-       if(getPlayerStats.value(0).toString() == "Lightning Bug")
-       {
-           if(getPlayerStats.value(1).toString() == "true")
-               LightningBug = true;
-           else
-               LightningBug = false;
-       }
-       if(getPlayerStats.value(0).toString() == "Reaper")
-       {
-           if(getPlayerStats.value(1).toString() == "true")
-               Reaper = true;
-           else
-               Reaper = false;
-       }
-       if(getPlayerStats.value(0).toString() == "Shield")
-       {
-           if(getPlayerStats.value(1).toString() == "true")
-               Shield = true;
-           else
-               Shield = false;
-       }
-       if(getPlayerStats.value(0).toString() == "Wizards Book")
-       {
-           if(getPlayerStats.value(1).toString() == "true")
-               WizardsBook = true;
-           else
-               WizardsBook = false;
-       }
-    }
-    configdb.close();
-    configdb.removeDatabase("userDB");
 }
 
 void CharacterSheet::loadAvatars()

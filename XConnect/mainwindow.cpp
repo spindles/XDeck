@@ -32,43 +32,50 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     cs = new CharacterSheet();
-    ui->setupUi(this);
-    ui->frameSoftware->hide();
-    ui->graphicsView->hide();
-    loadDeckSoftware();
-    isConnected = false;
-    bmOpen = false;
-    ckOpen = false;
-    dkOpen = false;
-    flOpen = false;
-    gnOpen = false;
-    gdOpen = false;
-    hmOpen = false;
-    hhOpen = false;
-    hyOpen = false;
-    lbOpen = false;
-    rpOpen = false;
-    shOpen = false;
-    wbOpen = false;
-
-    EST_String textToSay = "Good ";
-    QTime theTime = QTime::currentTime();
-    int theHour = theTime.hour();
-    if(theHour >= 5 && theHour < 12)
+    if(cs->userFileName=="NULL")
     {
-        textToSay += "Morning ";
-    }
-    else if(theHour >= 12 && theHour < 17)
-    {
-        textToSay += "Afternoon ";
+       //Do Nothing;
     }
     else
     {
-        textToSay += "Evening ";
+        ui->setupUi(this);
+        ui->frameSoftware->hide();
+        ui->graphicsView->hide();
+        loadDeckSoftware();
+        isConnected = false;
+        bmOpen = false;
+        ckOpen = false;
+        dkOpen = false;
+        flOpen = false;
+        gnOpen = false;
+        gdOpen = false;
+        hmOpen = false;
+        hhOpen = false;
+        hyOpen = false;
+        lbOpen = false;
+        rpOpen = false;
+        shOpen = false;
+        wbOpen = false;
+
+        EST_String textToSay = "Good ";
+        QTime theTime = QTime::currentTime();
+        int theHour = theTime.hour();
+        if(theHour >= 5 && theHour < 12)
+        {
+            textToSay += "Morning ";
+        }
+        else if(theHour >= 12 && theHour < 17)
+        {
+            textToSay += "Afternoon ";
+        }
+        else
+        {
+            textToSay += "Evening ";
+        }
+        const char* estUserName = cs->userName.toLatin1();
+        textToSay += estUserName;
+        festival_say_text(textToSay);
     }
-    const char* estUserName = cs->userName.toLatin1();
-    textToSay += estUserName;
-    festival_say_text(textToSay);
 }
 
 MainWindow::~MainWindow()

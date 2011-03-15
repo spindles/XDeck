@@ -22,6 +22,7 @@
 #include <QtGui/QApplication>
 #include "mainwindow.h"
 #include <festival.h>
+#include <QMessageBox>
 
 int main(int argc, char *argv[])
 {
@@ -30,8 +31,18 @@ int main(int argc, char *argv[])
     int load_init_files = 1;
     festival_initialize(load_init_files,heap_size);
     MainWindow w;
-    w.setWindowFlags(Qt::FramelessWindowHint);
-    w.move(QPoint(150,0));
-    w.show();
-    return a.exec();
+    if(w.cs->userFileName=="NULL")
+    {
+        QMessageBox msgBox;
+        msgBox.setText("You must run configwizard before you can use xconnect!");
+        msgBox.exec();
+        a.quit();
+    }
+    else
+    {
+        w.setWindowFlags(Qt::FramelessWindowHint);
+        w.move(QPoint(150,0));
+        w.show();
+        return a.exec();
+    }
 }

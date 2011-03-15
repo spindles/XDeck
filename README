@@ -1,17 +1,23 @@
-XDeck v0.1
+XDeck v0.1 - (C) 2010/11 Spindles (spindles@wonkyspanner.com)  
 
 XDeck is a suite of software that I created for use in simulating a cyberdeck interface for the SINtax Cyberpunk Live Roleplaying system (www.sintaxlrp.com).
 
-It is free software licensed under the GPL v2 license in the hope that someone will find it useful.
+It is free software licensed under the GPL v2 license and released in the hope that someone will find it useful.
 
 The project page can be found on github at https://github.com/spindles/XDeck
 
-Dependencies
-For XDeck to compile and run you need at least the following:
+Dependencies:
 qt4.6.3
 festival-devel-1.96-126.3.1.i586
 festival-1.96-126.3.1.i586
 
 Compilation instructions
 
-Run the following commands to compile the XDeck software.
+Run the following commands to compile the XDeck software:
+
+qmake XDeck.pro
+make
+
+You will then have two executables: cwizard and xconnect. You must run cwizard before you try to run xconnect.
+
+
