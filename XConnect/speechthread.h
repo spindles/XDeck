@@ -19,28 +19,29 @@
 //                                                                          //
 //////////////////////////////////////////////////////////////////////////////
 
-#include <QtGui/QApplication>
-#include "mainwindow.h"
-#include <festival.h>
-#include <QMessageBox>
+#ifndef SPEECHTHREAD_H
+#define SPEECHTHREAD_H
 
-int main(int argc, char *argv[])
+#include <QThread>
+#include <EST_String.h>
+
+class SpeechThread : public QThread
 {
-    QApplication a(argc, argv);
+Q_OBJECT
+public:
+    explicit SpeechThread(EST_String TextToSay, QObject *parent = 0);
+    EST_String SpeechText;
+    void run();
+    bool firstRun;
 
-    MainWindow w;
-    if(w.cs->userFileName=="NULL")
-    {
-        QMessageBox msgBox;
-        msgBox.setText("You must run configwizard before you can use xconnect!");
-        msgBox.exec();
-        a.quit();
-    }
-    else
-    {
-        w.setWindowFlags(Qt::FramelessWindowHint);
-        w.move(QPoint(150,0));
-        w.show();
-        return a.exec();
-    }
-}
+protected:
+
+private:
+
+signals:
+
+public slots:
+
+};
+
+#endif // SPEECHTHREAD_H

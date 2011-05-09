@@ -21,6 +21,7 @@
 
 #include "cloak.h"
 #include "ui_cloak.h"
+#include "speechthread.h"
 #include <festival.h>
 #include <stdio.h>
 #include <iostream>
@@ -65,12 +66,12 @@ void Cloak::showTime()
         timer->stop();
         ui->pushButtonActivateCloak->setEnabled(true);
         counter = 0;
-        festival_say_text("Cloak timer expired. Cloak is now inactive");
+        Speak("Cloak timer expired. Cloak is now inactive");
         timerRunning=false;
     }
     else if((counter+(timerLength*60))==29)
     {
-        festival_say_text("Caution. Cloak timer will expire in 30 seconds.");
+        Speak("Caution. Cloak timer will expire in 30 seconds.");
         QTime time = cloakTime.addSecs(counter);
         QString text = time.toString("mm:ss");
         if ((time.second() % 2) == 0)
@@ -100,7 +101,7 @@ void Cloak::on_pushButtonActivateCloak_released()
         const char* estTimerLength = str1.c_str();
         textToSay += estTimerLength;
         textToSay += " minutes.";
-        festival_say_text(textToSay);
+        Speak(textToSay);
         timer = new QTimer(this);
         connect(timer, SIGNAL(timeout()), this, SLOT(showTime()));
         timer->start(1000);
@@ -108,4 +109,10 @@ void Cloak::on_pushButtonActivateCloak_released()
         ui->pushButtonActivateCloak->setEnabled(false);
         timerRunning=true;
     }
+}
+
+void Cloak::Speak(EST_String text)
+{
+    SpeechThread *st = new SpeechThread(text);
+    st->start();
 }

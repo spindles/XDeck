@@ -25,6 +25,7 @@
 #include <QMainWindow>
 #include <QGraphicsView>
 #include <QToolButton>
+#include "EST_String.h"
 #include "charactersheet.h"
 #include "blackmask.h"
 #include "cloak.h"
@@ -81,6 +82,8 @@ public:
     Reaper* rp;
     Shield* sh;
     WizardBook* wb;
+
+    void Speak(EST_String text);
 
     MainWindow(QWidget *parent = 0);
     ~MainWindow();

@@ -26,6 +26,7 @@
 #include <QTimer>
 #include <QTime>
 #include "charactersheet.h"
+#include "EST_String.h"
 
 namespace Ui {
     class Cloak;
@@ -44,6 +45,7 @@ public:
     bool timerRunning;
     QTimer *timer;
     QTime cloakTime;
+    void Speak(EST_String text);
 
 protected:
     void changeEvent(QEvent *e);

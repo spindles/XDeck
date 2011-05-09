@@ -26,6 +26,7 @@
 #include <QGraphicsScene>
 #include <festival.h>
 #include <EST_String.h>
+#include "speechthread.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -74,7 +75,8 @@ MainWindow::MainWindow(QWidget *parent) :
         }
         const char* estUserName = cs->userName.toLatin1();
         textToSay += estUserName;
-        festival_say_text(textToSay);
+
+        Speak(textToSay);
     }
 }
 
@@ -99,7 +101,7 @@ void MainWindow::on_toolButtonConnect_clicked()
 {
     if(isConnected == false)
     {
-        festival_say_text("Creating routed connection to the internet.");
+        Speak("Creating routed connection to the internet.");
         introScene = new QGraphicsScene(0, 0, 600, 400);
         setupIntroScene();
         ui->graphicsView->setScene(introScene);
@@ -145,7 +147,7 @@ void MainWindow::updateIntroMap()
     {
         //introScene->addText("CONNECTED");
         introSceneTimer->stop();
-        festival_say_text("You are now connected to the internet.");
+        Speak("You are now connected to the internet.");
     }
     else
     {
@@ -165,7 +167,7 @@ void MainWindow::on_toolButtonDisconnect_clicked()
         QGraphicsScene *outroScene = new QGraphicsScene(0, 0, 600, 400);
         ui->graphicsView->setScene(outroScene);
         //outroScene->addText("DISCONNECTED");
-        festival_say_text("You are now disconnected from the internet.");
+        Speak("You are now disconnected from the internet.");
         ui->graphicsView->show();
         isConnected = false;
         if(ui->toolButtonDisconnect->isEnabled()==true)
@@ -278,7 +280,7 @@ void MainWindow::on_toolButtonBlackMask_released()
 {
     if (bmOpen == false)
     {
-        festival_say_text("Launching Black Mask utility.");
+        Speak("Launching Black Mask utility.");
         bm = new BlackMask(*cs);
         connect(bm, SIGNAL(finished(int)), this, SLOT(bmClosed()));
         bm->show();
@@ -303,7 +305,7 @@ void MainWindow::on_toolButtonCloak_released()
     {
         if (ckOpen == false)
         {
-            festival_say_text("Launching Cloak utility.");
+            Speak("Launching Cloak utility.");
             ck = new Cloak(*cs);
             connect(ck, SIGNAL(finished(int)), this, SLOT(cloakClosed()));
             ck->show();
@@ -318,7 +320,7 @@ void MainWindow::on_toolButtonCloak_released()
     }
     else
     {
-        festival_say_text("You must connect to the internet before running this program.");
+        Speak("You must connect to the internet before running this program.");
     }
 }
 
@@ -333,7 +335,7 @@ void MainWindow::on_toolButtonDarcKnight_released()
     {
         if (dkOpen == false)
         {
-            festival_say_text("Launching Dark Knight utility.");
+            Speak("Launching Dark Knight utility.");
             dk = new DarcKnight(*cs);
             connect(dk, SIGNAL(finished(int)), this, SLOT(darcKnightClosed()));
             dk->show();
@@ -348,7 +350,7 @@ void MainWindow::on_toolButtonDarcKnight_released()
     }
     else
     {
-        festival_say_text("You must connect to the internet before running this program.");
+        Speak("You must connect to the internet before running this program.");
     }
 }
 
@@ -362,7 +364,7 @@ void MainWindow::on_toolButtonFlatline_released()
 {
     if (flOpen == false)
     {
-        festival_say_text("Launching Flat Line.");
+        Speak("Launching Flat Line.");
         fl = new Flatline(*cs);
         connect(fl, SIGNAL(finished(int)), this, SLOT(flClosed()));
         fl->show();
@@ -385,7 +387,7 @@ void MainWindow::on_toolButtonGenie_released()
 {
     if (gnOpen == false)
     {
-        festival_say_text("Launching Genie.");
+        Speak("Launching Genie.");
         gn = new Genie(*cs);
         connect(gn, SIGNAL(finished(int)), this, SLOT(gnClosed()));
         gn->show();
@@ -408,7 +410,7 @@ void MainWindow::on_toolButtonGuardDog_released()
 {
     if (gdOpen == false)
     {
-        festival_say_text("Launching Guard Dog.");
+        Speak("Launching Guard Dog.");
         gd = new GuardDog(*cs);
         connect(gd, SIGNAL(finished(int)), this, SLOT(guardDogClosed()));
         gd->show();
@@ -496,4 +498,10 @@ void MainWindow::on_toolButtonWizardBook_released()
 void MainWindow::wizardBookClosed()
 {
     wbOpen = false;
+}
+
+void MainWindow::Speak(EST_String text)
+{
+    SpeechThread *st = new SpeechThread(text);
+    st->start();
 }

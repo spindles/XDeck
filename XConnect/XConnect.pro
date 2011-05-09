@@ -24,7 +24,8 @@ SOURCES += main.cpp \
     lightningbug.cpp \
     reaper.cpp \
     shield.cpp \
-    wizardbook.cpp
+    wizardbook.cpp \
+    speechthread.cpp
 HEADERS += mainwindow.h \
     charactersheet.h \
     blackmask.h \
@@ -39,7 +40,8 @@ HEADERS += mainwindow.h \
     lightningbug.h \
     reaper.h \
     shield.h \
-    wizardbook.h
+    wizardbook.h \
+    speechthread.h
 FORMS += mainwindow.ui \
     blackmask.ui \
     cloak.ui \
