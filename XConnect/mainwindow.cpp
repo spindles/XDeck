@@ -366,7 +366,7 @@ void MainWindow::on_toolButtonFlatline_released()
     {
         Speak("Launching Flat Line.");
         fl = new Flatline(*cs);
-        connect(fl, SIGNAL(finished(int)), this, SLOT(flClosed()));
+        connect(fl, SIGNAL(finished(int)), this, SLOT(flatlineClosed()));
         fl->show();
         flOpen = true;
     }
@@ -389,7 +389,7 @@ void MainWindow::on_toolButtonGenie_released()
     {
         Speak("Launching Genie.");
         gn = new Genie(*cs);
-        connect(gn, SIGNAL(finished(int)), this, SLOT(gnClosed()));
+        connect(gn, SIGNAL(finished(int)), this, SLOT(genieClosed()));
         gn->show();
         gnOpen = true;
     }
