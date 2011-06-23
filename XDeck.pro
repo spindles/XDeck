@@ -1,4 +1,5 @@
 TEMPLATE = subdirs
 SUBDIRS = configwizard \
-          XConnect
+          XConnect \
+          ARIface
 CONFIG += ordered
