@@ -6,5 +6,5 @@ CONFIG += warn_on \
     thread \
     qt
 TARGET = ../cwizard
-RESOURCES = application.qrc
+RESOURCES = 
 QT += sql

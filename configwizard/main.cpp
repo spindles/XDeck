@@ -26,7 +26,6 @@
 
 int main(int argc, char *argv[])
 {
-      Q_INIT_RESOURCE(application);
       QApplication app(argc, argv);
 
       // Check and create config directory if not there
