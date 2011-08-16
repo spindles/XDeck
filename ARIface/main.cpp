@@ -14,7 +14,7 @@
 #include <GL/glut.h>
 #include "object.h"
 
-const char      *vconf = "v4l2src device=/dev/video1 ! ffmpegcolorspace ! video/x-raw-rgb,width=640,height=480 ! identity name=artoolkit ! fakesink";
+const char      *vconf = "v4l2src device=/dev/video0 ! ffmpegcolorspace ! video/x-raw-rgb,width=640,height=480 ! identity name=artoolkit ! fakesink";
 
 const char      *model_name = "ARIface/Data/object_data2";
 ObjectData_T    *object;
