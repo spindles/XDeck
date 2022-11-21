@@ -22,7 +22,7 @@
 #include "charactersheet.h"
 #include <QDir>
 #include <QFile>
-#include <QtGui/QApplication>
+#include <QtWidgets/QApplication>
 
 CharacterSheet::CharacterSheet()
 {

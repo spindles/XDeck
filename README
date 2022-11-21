@@ -7,9 +7,12 @@ It is free software licensed under the GPL v2 license and released in the hope t
 The project page can be found on github at https://github.com/spindles/XDeck
 
 Dependencies:
-qt4.6.3
-festival-devel-1.96-126.3.1.i586
-festival-1.96-126.3.1.i586
+qt5
+festival-devel
+festival
+opencv
+libv4l-dev
+ARToolkit
 
 Compilation instructions
 

@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 
-#include <QtGui>
+#include <QtWidgets>
 #include "configwizard.h"
 
 #include <QTextEdit>

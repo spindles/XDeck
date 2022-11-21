@@ -101,7 +101,7 @@ void MainWindow::on_toolButtonConnect_clicked()
 {
     if(isConnected == false)
     {
-        Speak("Creating routed connection to the internet.");
+        Speak("Creating routed connection to the SPINE network.");
         introScene = new QGraphicsScene(0, 0, 600, 400);
         setupIntroScene();
         ui->graphicsView->setScene(introScene);
@@ -147,7 +147,7 @@ void MainWindow::updateIntroMap()
     {
         //introScene->addText("CONNECTED");
         introSceneTimer->stop();
-        Speak("You are now connected to the internet.");
+        Speak("You are now connected to the SPINE network.");
     }
     else
     {
@@ -167,7 +167,7 @@ void MainWindow::on_toolButtonDisconnect_clicked()
         QGraphicsScene *outroScene = new QGraphicsScene(0, 0, 600, 400);
         ui->graphicsView->setScene(outroScene);
         //outroScene->addText("DISCONNECTED");
-        Speak("You are now disconnected from the internet.");
+        Speak("You are now disconnected from the SPINE network.");
         ui->graphicsView->show();
         isConnected = false;
         if(ui->toolButtonDisconnect->isEnabled()==true)
@@ -320,7 +320,7 @@ void MainWindow::on_toolButtonCloak_released()
     }
     else
     {
-        Speak("You must connect to the internet before running this program.");
+        Speak("You must connect to the SPINE network before running this program.");
     }
 }
 
@@ -350,7 +350,7 @@ void MainWindow::on_toolButtonDarcKnight_released()
     }
     else
     {
-        Speak("You must connect to the internet before running this program.");
+        Speak("You must connect to the SPINE network before running this program.");
     }
 }
 

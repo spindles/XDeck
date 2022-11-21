@@ -7,4 +7,5 @@ CONFIG += warn_on \
     qt
 TARGET = ../cwizard
 RESOURCES = 
-QT += sql
+QT += sql \
+	widgets

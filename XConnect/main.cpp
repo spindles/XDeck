@@ -19,9 +19,9 @@
 //                                                                          //
 //////////////////////////////////////////////////////////////////////////////
 
-#include <QtGui/QApplication>
+#include <QtWidgets/QApplication>
 #include "mainwindow.h"
-#include <festival.h>
+#include "festival/festival.h"
 #include <QMessageBox>
 
 int main(int argc, char *argv[])

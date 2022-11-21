@@ -5,8 +5,9 @@ QT += network \
     opengl \
     sql \
     svg \
-    webkit \
-    gui
+    webkitwidgets \
+    gui \
+    widgets
 TARGET = ../xconnect
 TEMPLATE = app
 SOURCES += main.cpp \
@@ -57,6 +58,8 @@ FORMS += mainwindow.ui \
     shield.ui \
     wizardbook.ui
 RESOURCES += images.qrc
+INCLUDEPATH += /usr/include/speech_tools \
+	/usr/include/festival
 LIBS += -lFestival \
     -lestools \
     -lestbase \
